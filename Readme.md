@@ -42,6 +42,13 @@ To open the Cypress test runner in an interactive mode, which allows you to sele
 npx cypress open
 ```
 This command will open the Cypress UI where you can choose and run specific tests.
+## Running Test Cases with Cypress
+
+1. Click on the **Scaffold File** in the project directory.
+2. Open the browser when prompted by Cypress.
+3. Select **"Okay, I got it"** to continue.
+4. Choose the test file you want to run from the list.
+5. Click on the selected file, and Cypress will automatically execute the test case.
 
 
 - ## Test Case Documentation  
