@@ -28,7 +28,7 @@ cd Cypres_assignment
    ```bash
    npm init -y
    ```
-   The `-y` flag automatically accepts the default settings, but you can run `npm init` without `-y` to customize the configuration.
+   The `-y` flag automatically accepts the default settings, but you can run `npm init` without `-y` to customize the configuration files.
 
 2. **Install Cypress**: Install Cypress as a development dependency.
    ```bash
