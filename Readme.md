@@ -44,4 +44,5 @@ npx cypress open
 This command will open the Cypress UI where you can choose and run specific tests.
 
 
-- ## To follow the TCS manual for login functionality, please refer to the [TCS Manual Spreadsheet](https://docs.google.com/spreadsheets/d/1ypScYO2jfmsm7P3r29al1rPNpJfdOfCNpBfrPGWPudM/edit?gid=0#gid=0).
+- ## Test Case Documentation  
+ [TCS Manual Spreadsheet](https://docs.google.com/spreadsheets/d/1ypScYO2jfmsm7P3r29al1rPNpJfdOfCNpBfrPGWPudM/edit?gid=0#gid=0).
