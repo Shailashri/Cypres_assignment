@@ -32,24 +32,25 @@ describe('lagger', function(){
         cy.get('.CMS-MyPagesLogin-button').click();
     })
       // Negative TC
-    it('TC04 - Login with null value TC',()=>{
+    it.only('TC04 - Login with null value TC',()=>{
         cy.visit('https://lager157.com/sv-se/');
         cy.get('[class="coi-consent-banner__agree-button"]').click();
         cy.get('[class="SimpleStyles-16832039751294426-Image"]').click();
         cy.wait(2000);
-        cy.get('[name="identifier"]').type('0');
-        cy.get('[type="password"]').type('0');
+        cy.get('[name="identifier"]').type('null');
+        cy.get('[type="password"]').type('null');
         cy.get('.CMS-MyPagesLogin-button').click();
     })
       // Negative TC this will fail bec we cannot pass empty string
     it.skip('TC05 - Login with Empty String TC',()=>{
         cy.visit('https://lager157.com/sv-se/');
         cy.get('[class="coi-consent-banner__agree-button"]').click();
-        cy.get('[class="SimpleStyles-16832039751294426-Image"]').click();
+       cy.get('[class="SimpleStyles-16832039751294426-Image"]').click();
         cy.wait(2000);
         cy.get('[name="identifier"]').type('');
         cy.get('[type="password"]').type('');
         cy.get('.CMS-MyPagesLogin-button').click();
+        
     })
 it('TC06 - Adding items to the cart with register user', ()=>{
     cy.visit('https://lager157.com/sv-se/');
