@@ -32,7 +32,7 @@ describe('lagger', function(){
         cy.get('.CMS-MyPagesLogin-button').click();
     })
       // Negative TC
-    it.only('TC04 - Login with null value TC',()=>{
+    it('TC04 - Login with null value TC',()=>{
         cy.visit('https://lager157.com/sv-se/');
         cy.get('[class="coi-consent-banner__agree-button"]').click();
         cy.get('[class="SimpleStyles-16832039751294426-Image"]').click();
