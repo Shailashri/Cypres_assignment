@@ -20,7 +20,7 @@ git clone https://github.com/Shailashri/cypres-assignment.git
 ### 2. Navigate to the Project Directory
 Move into the cloned project folder:
 ```bash
-cd Cypres_assignment
+cd cypres-assignment
 ```
 
 ### 3. Initialize npm and Install Cypress
