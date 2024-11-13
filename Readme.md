@@ -14,7 +14,7 @@ Ensure the following tools are installed on your system:
 ### 1. Clone the Repository
 Clone the repository from GitHub to your local machine.
 ```bash
-git clone https://github.com/Shailashri/Cypres_assignment.git
+git clone https://github.com/Shailashri/cypres-assignment.git
 ```
 
 ### 2. Navigate to the Project Directory
